@@ -8,7 +8,8 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #fff3e0;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
             color: #333;
             margin: 0;
             padding: 0;
@@ -17,9 +18,17 @@
             max-width: 800px;
             margin: 30px auto;
             padding: 20px;
-            background-color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.9);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
+        }
+        .profile-pic {
+            display: block;
+            max-width: 150px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            border: 2px solid #e65100;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
             text-align: center;
@@ -77,6 +86,7 @@
 </head>
 <body>
     <div class="container">
+        <img src="your-image.jpg" alt="Profile Picture" class="profile-pic">
         <h1>مشخصات فردی سید محمد شایان رضوی</h1>
         <h2>اطلاعات شخصی</h2>
         <ul>
